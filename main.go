@@ -75,6 +75,6 @@ func decodeTVStream(stream string) {
 	for i := 1; i <= 10; i++ {
 		data := fmt.Sprintf("Decoded data from TV stream %s, frame %d", stream, i)
 		tvData <- data
-		time.Sleep(time.Millisecond * 500) // same crap here
+		time.Sleep(time.Millisecond * 500) // same here
 	}
 }
